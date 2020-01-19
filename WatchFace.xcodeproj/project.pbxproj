@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		A2435FC823D464ED00CF3F9F /* IntroInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2987F6A23D3B49D006078F4 /* IntroInterfaceController.swift */; };
 		A2435FCB23D467ED00CF3F9F /* watch_face.png in Resources */ = {isa = PBXBuildFile; fileRef = A2435FCA23D467ED00CF3F9F /* watch_face.png */; };
+		A28EBE3923D4A08F00E747BE /* red circle 2.png in Resources */ = {isa = PBXBuildFile; fileRef = A28EBE3823D4A08F00E747BE /* red circle 2.png */; };
+		A28EBE3D23D4A23400E747BE /* white circle 2.png in Resources */ = {isa = PBXBuildFile; fileRef = A28EBE3C23D4A23400E747BE /* white circle 2.png */; };
 		A2987F0E23D39DB2006078F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2987F0D23D39DB2006078F4 /* AppDelegate.swift */; };
 		A2987F1023D39DB2006078F4 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A2987F0F23D39DB2006078F4 /* GameScene.sks */; };
 		A2987F1223D39DB2006078F4 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = A2987F1123D39DB2006078F4 /* Actions.sks */; };
@@ -88,6 +90,8 @@
 
 /* Begin PBXFileReference section */
 		A2435FCA23D467ED00CF3F9F /* watch_face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = watch_face.png; sourceTree = "<group>"; };
+		A28EBE3823D4A08F00E747BE /* red circle 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red circle 2.png"; sourceTree = "<group>"; };
+		A28EBE3C23D4A23400E747BE /* white circle 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "white circle 2.png"; sourceTree = "<group>"; };
 		A2987F0A23D39DB2006078F4 /* WatchFace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchFace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2987F0D23D39DB2006078F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2987F0F23D39DB2006078F4 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -153,6 +157,8 @@
 		A2435FC923D4678E00CF3F9F /* Asset */ = {
 			isa = PBXGroup;
 			children = (
+				A28EBE3C23D4A23400E747BE /* white circle 2.png */,
+				A28EBE3823D4A08F00E747BE /* red circle 2.png */,
 				A2435FCA23D467ED00CF3F9F /* watch_face.png */,
 			);
 			path = Asset;
@@ -425,7 +431,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2987F5D23D39EA8006078F4 /* Assets.xcassets in Resources */,
+				A28EBE3D23D4A23400E747BE /* white circle 2.png in Resources */,
 				A2987F5723D39EA7006078F4 /* GameScene.sks in Resources */,
+				A28EBE3923D4A08F00E747BE /* red circle 2.png in Resources */,
 				A2435FCB23D467ED00CF3F9F /* watch_face.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
