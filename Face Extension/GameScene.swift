@@ -4,6 +4,8 @@ class GameScene: SKScene {
     var secondHand:SKSpriteNode = SKSpriteNode()
     var minuteHand:SKSpriteNode = SKSpriteNode()
     var hourHand:SKSpriteNode = SKSpriteNode()
+    var minuteCircle:SKSpriteNode = SKSpriteNode()
+    var hourCircle:SKSpriteNode = SKSpriteNode()
     override func sceneDidLoad() {
         if let secHand:SKSpriteNode = self.childNode(withName: "SecondHand") as? SKSpriteNode{
             secondHand = secHand
@@ -13,6 +15,12 @@ class GameScene: SKScene {
         }
         if let hrHand:SKSpriteNode = self.childNode(withName: "HourHand") as? SKSpriteNode{
             hourHand = hrHand
+        }
+        if let minCircle:SKSpriteNode = self.childNode(withName: "MinuteCircle") as? SKSpriteNode{
+            minuteCircle = minCircle
+        }
+        if let hrCircle:SKSpriteNode = self.childNode(withName: "HourCircle") as? SKSpriteNode{
+            hourCircle = hrCircle
         }
     }
     
@@ -26,6 +34,8 @@ class GameScene: SKScene {
         secondHand.zRotation = -1 * deg2rad(seconds * 6)
         minuteHand.zRotation = -1 * deg2rad(minutes * 6)
         hourHand.zRotation = -1 * deg2rad(hour * 30 + minutes/2)
+        minuteCircle.zRotation = -1 * deg2rad(minutes * 6)
+        hourCircle.zRotation = -1 * deg2rad(hour * 30 + minutes/2)
     }
 
     func deg2rad(_ number: CGFloat) -> CGFloat {

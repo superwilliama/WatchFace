@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A21F448623D60798000938FA /* Watch Face Template.png in Resources */ = {isa = PBXBuildFile; fileRef = A21F448523D60798000938FA /* Watch Face Template.png */; };
+		A21F448823D609D4000938FA /* Watch Face Template 2.png in Resources */ = {isa = PBXBuildFile; fileRef = A21F448723D609D4000938FA /* Watch Face Template 2.png */; };
+		A21F448A23D609DD000938FA /* Watch Face Template 3.png in Resources */ = {isa = PBXBuildFile; fileRef = A21F448923D609DC000938FA /* Watch Face Template 3.png */; };
+		A21F448C23D61E3C000938FA /* Working White Circle .png in Resources */ = {isa = PBXBuildFile; fileRef = A21F448B23D61E3C000938FA /* Working White Circle .png */; };
 		A2435FC823D464ED00CF3F9F /* IntroInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2987F6A23D3B49D006078F4 /* IntroInterfaceController.swift */; };
 		A2435FCB23D467ED00CF3F9F /* watch_face.png in Resources */ = {isa = PBXBuildFile; fileRef = A2435FCA23D467ED00CF3F9F /* watch_face.png */; };
 		A28EBE3923D4A08F00E747BE /* red circle 2.png in Resources */ = {isa = PBXBuildFile; fileRef = A28EBE3823D4A08F00E747BE /* red circle 2.png */; };
@@ -89,6 +93,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A21F448523D60798000938FA /* Watch Face Template.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Watch Face Template.png"; sourceTree = "<group>"; };
+		A21F448723D609D4000938FA /* Watch Face Template 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Watch Face Template 2.png"; sourceTree = "<group>"; };
+		A21F448923D609DC000938FA /* Watch Face Template 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Watch Face Template 3.png"; sourceTree = "<group>"; };
+		A21F448B23D61E3C000938FA /* Working White Circle .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Working White Circle .png"; sourceTree = "<group>"; };
 		A2435FCA23D467ED00CF3F9F /* watch_face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = watch_face.png; sourceTree = "<group>"; };
 		A28EBE3823D4A08F00E747BE /* red circle 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red circle 2.png"; sourceTree = "<group>"; };
 		A28EBE3C23D4A23400E747BE /* white circle 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "white circle 2.png"; sourceTree = "<group>"; };
@@ -157,6 +165,10 @@
 		A2435FC923D4678E00CF3F9F /* Asset */ = {
 			isa = PBXGroup;
 			children = (
+				A21F448B23D61E3C000938FA /* Working White Circle .png */,
+				A21F448923D609DC000938FA /* Watch Face Template 3.png */,
+				A21F448723D609D4000938FA /* Watch Face Template 2.png */,
+				A21F448523D60798000938FA /* Watch Face Template.png */,
 				A28EBE3C23D4A23400E747BE /* white circle 2.png */,
 				A28EBE3823D4A08F00E747BE /* red circle 2.png */,
 				A2435FCA23D467ED00CF3F9F /* watch_face.png */,
@@ -430,11 +442,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A21F448623D60798000938FA /* Watch Face Template.png in Resources */,
+				A21F448A23D609DD000938FA /* Watch Face Template 3.png in Resources */,
+				A21F448823D609D4000938FA /* Watch Face Template 2.png in Resources */,
 				A2987F5D23D39EA8006078F4 /* Assets.xcassets in Resources */,
 				A28EBE3D23D4A23400E747BE /* white circle 2.png in Resources */,
 				A2987F5723D39EA7006078F4 /* GameScene.sks in Resources */,
 				A28EBE3923D4A08F00E747BE /* red circle 2.png in Resources */,
 				A2435FCB23D467ED00CF3F9F /* watch_face.png in Resources */,
+				A21F448C23D61E3C000938FA /* Working White Circle .png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
