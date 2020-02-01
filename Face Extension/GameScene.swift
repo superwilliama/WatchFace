@@ -4,8 +4,10 @@ class GameScene: SKScene {
     var secondHand:SKSpriteNode = SKSpriteNode()
     var minuteHand:SKSpriteNode = SKSpriteNode()
     var hourHand:SKSpriteNode = SKSpriteNode()
-    var minuteCircle:SKSpriteNode = SKSpriteNode()
-    var hourCircle:SKSpriteNode = SKSpriteNode()
+    var secondHandBottom:SKSpriteNode = SKSpriteNode()
+    var secondHandTop:SKSpriteNode = SKSpriteNode()
+    // var minuteCircle:SKSpriteNode = SKSpriteNode()
+    // var hourCircle:SKSpriteNode = SKSpriteNode()
     override func sceneDidLoad() {
         if let secHand:SKSpriteNode = self.childNode(withName: "SecondHand") as? SKSpriteNode{
             secondHand = secHand
@@ -16,12 +18,18 @@ class GameScene: SKScene {
         if let hrHand:SKSpriteNode = self.childNode(withName: "HourHand") as? SKSpriteNode{
             hourHand = hrHand
         }
-        if let minCircle:SKSpriteNode = self.childNode(withName: "MinuteCircle") as? SKSpriteNode{
-            minuteCircle = minCircle
+        if let secHandBottom:SKSpriteNode = self.childNode(withName: "SecondHandBottom") as? SKSpriteNode{
+            secondHandBottom = secHandBottom
         }
-        if let hrCircle:SKSpriteNode = self.childNode(withName: "HourCircle") as? SKSpriteNode{
-            hourCircle = hrCircle
+        if let secHandTop:SKSpriteNode = self.childNode(withName: "SecondHandTop") as? SKSpriteNode{
+            secondHandTop = secHandTop
         }
+        // if let minCircle:SKSpriteNode = self.childNode(withName: "MinuteCircle") as? SKSpriteNode{
+            // minuteCircle = minCircle
+        // }
+        // if let hrCircle:SKSpriteNode = self.childNode(withName: "HourCircle") as? SKSpriteNode{
+            // hourCircle = hrCircle
+        // }
     }
     
     override func update(_ currentTime: TimeInterval) {
@@ -31,11 +39,14 @@ class GameScene: SKScene {
         let hour = CGFloat(calendar.component(.hour, from: date))
         let minutes = CGFloat(calendar.component(.minute, from: date))
         let seconds = CGFloat(calendar.component(.second, from: date))
-        secondHand.zRotation = -1 * deg2rad(seconds * 6)
-        minuteHand.zRotation = -1 * deg2rad(minutes * 6)
+        let ms = CGFloat(calendar.component(.nanosecond, from: date)) / 1000000000
+        secondHand.zRotation = -1 * deg2rad((seconds + ms) * 6)
+        minuteHand.zRotation = -1 * deg2rad((minutes + (seconds / 60)) * 6)
         hourHand.zRotation = -1 * deg2rad(hour * 30 + minutes/2)
-        minuteCircle.zRotation = -1 * deg2rad(minutes * 6)
-        hourCircle.zRotation = -1 * deg2rad(hour * 30 + minutes/2)
+        secondHandBottom.zRotation = -1 * deg2rad(seconds * 6)
+        secondHandTop.zRotation = -1 * deg2rad(seconds * 6)
+        // minuteCircle.zRotation = -1 * deg2rad(minutes * 6)
+        // hourCircle.zRotation = -1 * deg2rad(hour * 30 + minutes/2)
     }
 
     func deg2rad(_ number: CGFloat) -> CGFloat {
