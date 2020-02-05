@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		A211714A23E47FCD00093CB6 /* Watch Face Template 4.png in Resources */ = {isa = PBXBuildFile; fileRef = A211714923E47FCD00093CB6 /* Watch Face Template 4.png */; };
-		A211715023E4874300093CB6 /* Hour Hand.png in Resources */ = {isa = PBXBuildFile; fileRef = A211714F23E4874300093CB6 /* Hour Hand.png */; };
-		A211715223E4874C00093CB6 /* Minute Hand.png in Resources */ = {isa = PBXBuildFile; fileRef = A211715123E4874C00093CB6 /* Minute Hand.png */; };
+		A211715423EB376700093CB6 /* Minute Hand Working!!!.png in Resources */ = {isa = PBXBuildFile; fileRef = A211715323EB376700093CB6 /* Minute Hand Working!!!.png */; };
+		A211715623EB377100093CB6 /* Hour Hand Working!!!.png in Resources */ = {isa = PBXBuildFile; fileRef = A211715523EB377100093CB6 /* Hour Hand Working!!!.png */; };
 		A21F448623D60798000938FA /* Watch Face Template.png in Resources */ = {isa = PBXBuildFile; fileRef = A21F448523D60798000938FA /* Watch Face Template.png */; };
 		A21F448823D609D4000938FA /* Watch Face Template 2.png in Resources */ = {isa = PBXBuildFile; fileRef = A21F448723D609D4000938FA /* Watch Face Template 2.png */; };
 		A21F448A23D609DD000938FA /* Watch Face Template 3.png in Resources */ = {isa = PBXBuildFile; fileRef = A21F448923D609DC000938FA /* Watch Face Template 3.png */; };
@@ -97,8 +97,8 @@
 
 /* Begin PBXFileReference section */
 		A211714923E47FCD00093CB6 /* Watch Face Template 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Watch Face Template 4.png"; sourceTree = "<group>"; };
-		A211714F23E4874300093CB6 /* Hour Hand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hour Hand.png"; sourceTree = "<group>"; };
-		A211715123E4874C00093CB6 /* Minute Hand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Minute Hand.png"; sourceTree = "<group>"; };
+		A211715323EB376700093CB6 /* Minute Hand Working!!!.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Minute Hand Working!!!.png"; sourceTree = "<group>"; };
+		A211715523EB377100093CB6 /* Hour Hand Working!!!.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hour Hand Working!!!.png"; sourceTree = "<group>"; };
 		A21F448523D60798000938FA /* Watch Face Template.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Watch Face Template.png"; sourceTree = "<group>"; };
 		A21F448723D609D4000938FA /* Watch Face Template 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Watch Face Template 2.png"; sourceTree = "<group>"; };
 		A21F448923D609DC000938FA /* Watch Face Template 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Watch Face Template 3.png"; sourceTree = "<group>"; };
@@ -171,8 +171,8 @@
 		A2435FC923D4678E00CF3F9F /* Asset */ = {
 			isa = PBXGroup;
 			children = (
-				A211715123E4874C00093CB6 /* Minute Hand.png */,
-				A211714F23E4874300093CB6 /* Hour Hand.png */,
+				A211715523EB377100093CB6 /* Hour Hand Working!!!.png */,
+				A211715323EB376700093CB6 /* Minute Hand Working!!!.png */,
 				A211714923E47FCD00093CB6 /* Watch Face Template 4.png */,
 				A21F448B23D61E3C000938FA /* Working White Circle .png */,
 				A21F448923D609DC000938FA /* Watch Face Template 3.png */,
@@ -451,15 +451,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A211715023E4874300093CB6 /* Hour Hand.png in Resources */,
+				A211715623EB377100093CB6 /* Hour Hand Working!!!.png in Resources */,
 				A21F448623D60798000938FA /* Watch Face Template.png in Resources */,
 				A21F448A23D609DD000938FA /* Watch Face Template 3.png in Resources */,
-				A211715223E4874C00093CB6 /* Minute Hand.png in Resources */,
 				A21F448823D609D4000938FA /* Watch Face Template 2.png in Resources */,
 				A2987F5D23D39EA8006078F4 /* Assets.xcassets in Resources */,
 				A28EBE3D23D4A23400E747BE /* white circle 2.png in Resources */,
 				A2987F5723D39EA7006078F4 /* GameScene.sks in Resources */,
 				A28EBE3923D4A08F00E747BE /* red circle 2.png in Resources */,
+				A211715423EB376700093CB6 /* Minute Hand Working!!!.png in Resources */,
 				A2435FCB23D467ED00CF3F9F /* watch_face.png in Resources */,
 				A21F448C23D61E3C000938FA /* Working White Circle .png in Resources */,
 				A211714A23E47FCD00093CB6 /* Watch Face Template 4.png in Resources */,
