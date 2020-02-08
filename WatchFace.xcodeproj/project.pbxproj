@@ -16,6 +16,11 @@
 		A21F448C23D61E3C000938FA /* Working White Circle .png in Resources */ = {isa = PBXBuildFile; fileRef = A21F448B23D61E3C000938FA /* Working White Circle .png */; };
 		A2435FC823D464ED00CF3F9F /* IntroInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2987F6A23D3B49D006078F4 /* IntroInterfaceController.swift */; };
 		A2435FCB23D467ED00CF3F9F /* watch_face.png in Resources */ = {isa = PBXBuildFile; fileRef = A2435FCA23D467ED00CF3F9F /* watch_face.png */; };
+		A254D13323EE00B80066AD27 /* California Watch Face.png in Resources */ = {isa = PBXBuildFile; fileRef = A254D13223EE00B80066AD27 /* California Watch Face.png */; };
+		A254D13523EE11D50066AD27 /* California Watch Face with Complications.png in Resources */ = {isa = PBXBuildFile; fileRef = A254D13423EE11D50066AD27 /* California Watch Face with Complications.png */; };
+		A254D13723EF442A0066AD27 /* AQI Index Complication.png in Resources */ = {isa = PBXBuildFile; fileRef = A254D13623EF442A0066AD27 /* AQI Index Complication.png */; };
+		A254D13923EF44310066AD27 /* Activity Ring Complication.png in Resources */ = {isa = PBXBuildFile; fileRef = A254D13823EF44300066AD27 /* Activity Ring Complication.png */; };
+		A254D13B23EF55D50066AD27 /* California Watch Face Full Screen.png in Resources */ = {isa = PBXBuildFile; fileRef = A254D13A23EF55D50066AD27 /* California Watch Face Full Screen.png */; };
 		A28EBE3923D4A08F00E747BE /* red circle 2.png in Resources */ = {isa = PBXBuildFile; fileRef = A28EBE3823D4A08F00E747BE /* red circle 2.png */; };
 		A28EBE3D23D4A23400E747BE /* white circle 2.png in Resources */ = {isa = PBXBuildFile; fileRef = A28EBE3C23D4A23400E747BE /* white circle 2.png */; };
 		A2987F0E23D39DB2006078F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2987F0D23D39DB2006078F4 /* AppDelegate.swift */; };
@@ -104,6 +109,11 @@
 		A21F448923D609DC000938FA /* Watch Face Template 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Watch Face Template 3.png"; sourceTree = "<group>"; };
 		A21F448B23D61E3C000938FA /* Working White Circle .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Working White Circle .png"; sourceTree = "<group>"; };
 		A2435FCA23D467ED00CF3F9F /* watch_face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = watch_face.png; sourceTree = "<group>"; };
+		A254D13223EE00B80066AD27 /* California Watch Face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "California Watch Face.png"; sourceTree = "<group>"; };
+		A254D13423EE11D50066AD27 /* California Watch Face with Complications.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "California Watch Face with Complications.png"; sourceTree = "<group>"; };
+		A254D13623EF442A0066AD27 /* AQI Index Complication.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AQI Index Complication.png"; sourceTree = "<group>"; };
+		A254D13823EF44300066AD27 /* Activity Ring Complication.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Activity Ring Complication.png"; sourceTree = "<group>"; };
+		A254D13A23EF55D50066AD27 /* California Watch Face Full Screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "California Watch Face Full Screen.png"; sourceTree = "<group>"; };
 		A28EBE3823D4A08F00E747BE /* red circle 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red circle 2.png"; sourceTree = "<group>"; };
 		A28EBE3C23D4A23400E747BE /* white circle 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "white circle 2.png"; sourceTree = "<group>"; };
 		A2987F0A23D39DB2006078F4 /* WatchFace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchFace.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -171,6 +181,11 @@
 		A2435FC923D4678E00CF3F9F /* Asset */ = {
 			isa = PBXGroup;
 			children = (
+				A254D13A23EF55D50066AD27 /* California Watch Face Full Screen.png */,
+				A254D13823EF44300066AD27 /* Activity Ring Complication.png */,
+				A254D13623EF442A0066AD27 /* AQI Index Complication.png */,
+				A254D13423EE11D50066AD27 /* California Watch Face with Complications.png */,
+				A254D13223EE00B80066AD27 /* California Watch Face.png */,
 				A211715523EB377100093CB6 /* Hour Hand Working!!!.png */,
 				A211715323EB376700093CB6 /* Minute Hand Working!!!.png */,
 				A211714923E47FCD00093CB6 /* Watch Face Template 4.png */,
@@ -451,18 +466,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A254D13923EF44310066AD27 /* Activity Ring Complication.png in Resources */,
+				A254D13523EE11D50066AD27 /* California Watch Face with Complications.png in Resources */,
 				A211715623EB377100093CB6 /* Hour Hand Working!!!.png in Resources */,
 				A21F448623D60798000938FA /* Watch Face Template.png in Resources */,
 				A21F448A23D609DD000938FA /* Watch Face Template 3.png in Resources */,
 				A21F448823D609D4000938FA /* Watch Face Template 2.png in Resources */,
 				A2987F5D23D39EA8006078F4 /* Assets.xcassets in Resources */,
+				A254D13B23EF55D50066AD27 /* California Watch Face Full Screen.png in Resources */,
 				A28EBE3D23D4A23400E747BE /* white circle 2.png in Resources */,
 				A2987F5723D39EA7006078F4 /* GameScene.sks in Resources */,
 				A28EBE3923D4A08F00E747BE /* red circle 2.png in Resources */,
 				A211715423EB376700093CB6 /* Minute Hand Working!!!.png in Resources */,
 				A2435FCB23D467ED00CF3F9F /* watch_face.png in Resources */,
+				A254D13323EE00B80066AD27 /* California Watch Face.png in Resources */,
 				A21F448C23D61E3C000938FA /* Working White Circle .png in Resources */,
 				A211714A23E47FCD00093CB6 /* Watch Face Template 4.png in Resources */,
+				A254D13723EF442A0066AD27 /* AQI Index Complication.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -14,14 +14,14 @@
             <objects>
                 <controller identifier="InterfaceController" title="InterfaceController" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Face_Extension">
                     <items>
-                        <spriteKitScene alignment="left" id="ARY-87-yzO"/>
+                        <spriteKitScene height="303" alignment="left" id="ARY-87-yzO"/>
                     </items>
                     <connections>
                         <outlet property="skInterface" destination="ARY-87-yzO" id="U6w-Od-uXj"/>
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="146" y="164"/>
+            <point key="canvasLocation" x="145.58974358974359" y="163.46153846153848"/>
         </scene>
         <!--IntroInterfaceController-->
         <scene sceneID="G24-nE-Fp2">
