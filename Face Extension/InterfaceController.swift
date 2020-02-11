@@ -25,15 +25,17 @@ class InterfaceController: WKInterfaceController {
             
             // Set the scale mode to scale to fit the window
             scene.scaleMode = .aspectFill
+            
 
             // Present the scene
             self.skInterface.presentScene(scene)
 
             // Use a value that will maintain a consistent frame rate
-            self.skInterface.preferredFramesPerSecond = 30
+            self.skInterface.preferredFramesPerSecond = 40
         }
+        
     }
-
+    
     override func willActivate() {
         // This method is called when watch view controller is about to be visible to user
         super.willActivate()
